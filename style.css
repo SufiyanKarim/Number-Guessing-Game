@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #295bc4;
+    position: relative;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: #ffffff;
+    height: 70vh;
+    width: 28%;
+    /* margin: auto; */
+    position: absolute;
+    top: 15vh;
+    left: 70vh;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#first-heading{
+    background-color: #13356D;
+    width: 95%;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#second-heading{
+    color: #568DC4;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+}
+
+input{
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #A3A3A3;
+    border-radius: 6px;
+    
+}
+
+#btn{
+    padding: 12px 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #2945cf;
+    border: none;
+    border-radius: 6px;
+}
+
+#btn:hover{
+    background-color: #ffffff;
+    color: #295bc4;
+    border: 1px solid #295bc4;
+}
+
+.resultParas{
+    background-color: #fffffe;
+    /* background-color: #13356D; */
+    padding: 5px 30px;
+    text-align: center;
+    color: #504f4f;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    /* box-shadow: 0px 2px 4px 2px #13356D; */
+    box-shadow: 12px 8px 12px 8px #eef6ff;
+    /* box-shadow: 0px 4px 6px 6px #eef6ff; */
+    border-radius: 6px;
+    /* display: none; */
+}
+
+.resultParas #first-para, #second-para{
+    margin-bottom: 15px;
+}
+
+#newGame{
+    padding: 10px ;
+    border: none;
+    outline: none;
+    background-color: #2945cf;
+    color: #eef6ff;
+    cursor: pointer;
+}
+
+#third-para{
+    background-color: #fffffe;
+    /* background-color: #13356D; */
+    padding: 7px 30px;
+    color: #295bc4;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    /* box-shadow: 0px 2px 4px 2px #13356D; */
+    box-shadow: 0px 4px 6px 6px #eef6ff;
+    border-radius: 6px;
+    /* display: none; */
+}
+
+
+
